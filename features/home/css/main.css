@@ -1,0 +1,86 @@
+/**
+ * Home Feature Styles
+ * DCLL Website
+ */
+
+/* Theme Variables */
+:root {
+    --color-primary: #EB5806;
+    --color-primary-light: #FFF5EC;
+}
+
+/* Custom Utility Classes */
+.text-orange {
+    color: var(--color-primary) !important;
+}
+
+.bg-orange-light {
+    background-color: var(--color-primary-light) !important;
+}
+
+/* Modal Animation */
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.modal-content {
+    animation: fadeInUp 0.5s ease;
+}
+
+/* Interactive Cards */
+.hover-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2) !important;
+}
+
+/* Section Title Underline */
+.section-title::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 4px;
+    background: var(--color-primary);
+    margin: 10px auto 0;
+    border-radius: 2px;
+}
+
+/* Feature Cards */
+.feature-img {
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.feature-row:hover .feature-img {
+    transform: translateY(-5px);
+}
+
+.feature-icon-box {
+    width: 60px;
+    height: 60px;
+    background: var(--color-primary-light);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-primary);
+    font-size: 1.8rem;
+}
+
+/* Scroll Offset for Anchor Links */
+#adult-link,
+#private-link {
+    scroll-margin-top: 120px;
+}

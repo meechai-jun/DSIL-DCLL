@@ -1,0 +1,126 @@
+/**
+ * Learning Platform Feature Styles
+ * DCLL Website
+ */
+
+/* Theme Variables */
+:root {
+    --color-orange: #EB5806;
+    --color-orange-light: #FFF5EC;
+    --color-blue-dark: #0d2c56;
+}
+
+/* Utility Classes */
+.text-orange {
+    color: var(--color-orange) !important;
+}
+
+.bg-orange {
+    background-color: var(--color-orange) !important;
+}
+
+.bg-orange-light {
+    background-color: var(--color-orange-light) !important;
+}
+
+/* Section Title */
+.section-title {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 3rem;
+}
+
+.section-title::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 4px;
+    background: var(--color-orange);
+    margin: 10px auto 0;
+    border-radius: 2px;
+}
+
+/* Feature Image Cards */
+.feature-img {
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.feature-row:hover .feature-img {
+    transform: translateY(-5px);
+}
+
+.feature-icon-box {
+    width: 60px;
+    height: 60px;
+    background: var(--color-orange-light);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    color: var(--color-orange);
+    font-size: 1.8rem;
+}
+
+/* JDIC Cards */
+.jdic-card {
+    border: none;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    height: 100%;
+    background: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+}
+
+.jdic-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.jdic-header {
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* JDIC Card Gradients */
+.bg-gradient-1 {
+    background: linear-gradient(135deg, #FFB75E, #ED8F03);
+}
+
+.bg-gradient-2 {
+    background: linear-gradient(135deg, #FF5F6D, #FFC371);
+}
+
+.bg-gradient-3 {
+    background: linear-gradient(135deg, #11998e, #38ef7d);
+}
+
+.jdic-body {
+    padding: 30px 20px;
+    text-align: center;
+}
+
+/* Checklist Style */
+.check-list li {
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 10px;
+    text-align: left;
+    color: #666;
+}
+
+.check-list li::before {
+    content: '\f00c';
+    font-family: "Font Awesome 5 Pro";
+    position: absolute;
+    left: 0;
+    color: var(--color-orange);
+    font-weight: 900;
+}

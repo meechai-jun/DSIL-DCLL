@@ -1,0 +1,24 @@
+/* CSS for Program Details */
+.text-orange {
+    color: #EB5806 !important;
+}
+
+.bg-orange {
+    background-color: #EB5806 !important;
+}
+
+.bg-peach {
+    background-color: #FFF5EC !important;
+}
+
+.object-fit-cover {
+    object-fit: cover;
+}
+
+.btn-hover-scale {
+    transition: transform 0.2s;
+}
+
+.btn-hover-scale:hover {
+    transform: scale(1.02);
+}

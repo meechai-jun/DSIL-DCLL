@@ -1,0 +1,52 @@
+/**
+ * Constructionism Explore Feature Styles
+ * DCLL Website
+ */
+
+/* Section Headers */
+.section-header {
+    background-color: #dce6f8;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.sub-header {
+    background-color: #eee;
+    padding: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Content Boxes */
+.explore-box {
+    padding: 1rem;
+    text-align: center;
+}
+
+.explore-image {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Resource Lists */
+.resource-list {
+    text-align: left;
+    padding-left: 1rem;
+}
+
+.resource-list ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.resource-list ul li::before {
+    content: "- ";
+}
+
+.text-highlight {
+    color: #d00;
+}

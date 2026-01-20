@@ -1,0 +1,80 @@
+/* Main CSS for Home Feature */
+
+/* Globals from Oldversion Index */
+.text-orange {
+    color: #eb5806 !important;
+}
+
+.bg-orange {
+    background-color: #eb5806 !important;
+}
+
+.theme-btn {
+    background-color: #eb5806;
+    color: #fff;
+}
+
+.section-badge {
+    font-size: 1.25rem;
+    letter-spacing: 1px;
+}
+
+/* Styles from Program.php (Oldversion) */
+.bg-peach {
+    background-color: #FFF5EC !important;
+}
+
+.bg-private {
+    background-color: #D95D24 !important;
+}
+
+.hover-up {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-up:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .15) !important;
+}
+
+.btn-hover-scale {
+    transition: transform 0.2s;
+}
+
+.btn-hover-scale:hover {
+    transform: scale(1.05);
+}
+
+.btn-outline-orange {
+    color: #EB5806 !important;
+    border: 2px solid #EB5806 !important;
+    background-color: transparent !important;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.btn-outline-orange:hover {
+    color: #fff !important;
+    background-color: #EB5806 !important;
+}
+
+.private-img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.card-private-custom {
+    padding-top: 2.5rem !important;
+}
+
+.floating-badge-custom {
+    white-space: nowrap;
+    color: #D95D24;
+}
+
+/* Utility */
+.object-fit-cover {
+    object-fit: cover;
+}
