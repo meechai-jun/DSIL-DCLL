@@ -1,8 +1,3 @@
-<?php
-/**
- * Work Process Section (Restored from Oldversion)
- */
-?>
 <section class="program-section section-padding section-bg-2 fix">
     <div class="top-shape">
         <img src="assets/img/section-top-shape.png" alt="shape-img">
@@ -31,34 +26,53 @@
         <div class="row align-items-center mb-5">
             <div class="col-lg-6 wow fadeInLeft" data-wow-delay=".2s">
                 <div class="process-img pe-lg-5">
-                    <img src="https://placehold.co/600x400/gray/000?text=600x400" class="img-fluid rounded-4 shadow-sm" alt="Process 1">
+                    <img src="https://placehold.co/600x400/gray/000?text=600x400" class="img-fluid rounded-4 shadow-sm" alt="Constructionism">
                 </div>
             </div>
             <div class="col-lg-6 wow fadeInRight" data-wow-delay=".4s">
                 <div class="process-content mt-4 mt-lg-0">
-                    <h4 class="text-orange fw-bold mb-3">คิดวิเคราะห์ วางแผน ลงมือทำ</h4>
+                    <h4 class="text-orange fw-bold mb-3">เรียนรู้ผ่านการลงมือทำ (Constructionism)</h4>
                     <p class="fs-5 text-muted">
-                        มุ่งเน้นการเรียนรู้ผ่านการลงมือทำจริง (Active Learning)
-                        ผ่านกระบวนการ STEAM Education ที่ผสมผสาน วิทยาศาสตร์
-                        เทคโนโลยี วิศวกรรม ศิลปะ และคณิตศาสตร์ เข้าด้วยกัน
+                        ในบรรยากาศที่เปิดกว้างทางความคิด ทีมผู้สอนพร้อมซัพพอร์ต สร้างพื้นที่ให้เด็กๆ กล้าที่จะออกแบบ
+                        และสร้างสรรค์ผลงานด้วยตัวเอง เปลี่ยนความสงสัยเป็นความเข้าใจ
+                        เปลี่ยนจินตนาการให้กลายเป็นชิ้นงาน
                     </p>
                 </div>
             </div>
         </div>
 
-        <div class="row align-items-center">
+        <div class="row align-items-center mb-5">
             <div class="col-lg-6 order-2 order-lg-1 wow fadeInLeft" data-wow-delay=".2s">
                 <div class="process-content mt-4 mt-lg-0 pe-lg-5">
-                    <h4 class="text-orange fw-bold mb-3">จินตนาการ ต่อยอดความคิด</h4>
+                    <h4 class="text-orange fw-bold mb-3">เน้นการสร้างประสบการณ์แบบ <span class="text-orange">Professional Maker</span></h4>
                     <p class="fs-5 text-muted">
-                        เข้าใจพื้นฐานการทำงานของกลไกต่างๆ เพื่อนำไปสู่การสร้างสรรค์
-                        นวัตกรรมในอนาคต เสริมสร้างทักษะแห่งศตวรรษที่ 21
+                        ซึมซับกระบวนการทำงานจริงผ่านอุปกรณ์ระดับอุตสาหกรรม การได้เห็นเครื่องจักรทำงานจริง
+                        ช่วยสอนเรื่องตรรกะ ลำดับขั้นตอน และความแม่นยำทางวิศวกรรมไปโดยธรรมชาติ
+                        ซึ่งเป็นทักษะสำคัญที่หาไม่ได้จากตำราเรียนทั่วไป
                     </p>
                 </div>
             </div>
             <div class="col-lg-6 order-1 order-lg-2 wow fadeInRight" data-wow-delay=".4s">
                 <div class="process-img">
-                    <img src="https://placehold.co/600x400/gray/000?text=600x400" class="img-fluid rounded-4 shadow-sm" alt="Process 2">
+                    <img src="https://placehold.co/600x400/gray/000?text=600x400" class="img-fluid rounded-4 shadow-sm" alt="Professional Maker">
+                </div>
+            </div>
+        </div>
+
+        <div class="row align-items-center">
+            <div class="col-lg-6 wow fadeInLeft" data-wow-delay=".2s">
+                <div class="process-img pe-lg-5">
+                    <img src="https://placehold.co/600x400/gray/000?text=600x400" class="img-fluid rounded-4 shadow-sm" alt="Problem Solving">
+                </div>
+            </div>
+            <div class="col-lg-6 wow fadeInRight" data-wow-delay=".4s">
+                <div class="process-content mt-4 mt-lg-0">
+                    <h4 class="text-orange fw-bold mb-3">เรียนรู้ผ่านการลงมือทำ และพร้อมที่จะ<span style="color: #d44141;">เผชิญกับปัญหา</span>ที่เกิดขึ้น</h4>
+                    <p class="fs-5 text-muted">
+                        มองเห็นความท้าทายเป้นโจทย์ที่น่าสนุกในการค้นหาและแก้ไข กล้าทดลอง กล้าล้มเหลว
+                        และเรียนรู้จากประสบการณ์ที่เกิดขึ้น เพื่อ<span class="text-orange">พัฒนาทักษะชีวิต</span>และเตรียมความพร้อมสำหรับโลกจริง
+                        ในทุกสถานการณ์
+                    </p>
                 </div>
             </div>
         </div>

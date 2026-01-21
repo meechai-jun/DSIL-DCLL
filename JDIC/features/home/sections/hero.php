@@ -4,7 +4,7 @@
  * Hero Section (Restored from Oldversion)
  */
 ?>
-<section class="hero-section hero-1 fix">
+<section class="hero-section hero-1 fix" style="padding: 0 !important">
     <div class="bottom-shape">
         <img src="assets/img/hero/bottom.png" alt="shape-img">
     </div>
