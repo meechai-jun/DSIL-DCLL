@@ -29,7 +29,7 @@
     <div class="row align-items-center">
         <div class="col-12">
             <div class="hero-image wow fadeInUp" data-wow-delay=".4s">
-                <img src="features/home/images/banner/jdic-banner.png" alt="hero-img">
+                <img src="features/home/images/banner/jdic-banner.gif" alt="hero-img">
             </div>
         </div>
     </div>
