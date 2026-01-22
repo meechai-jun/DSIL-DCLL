@@ -26,7 +26,7 @@
         <div class="row align-items-center mb-5">
             <div class="col-lg-6 wow fadeInLeft" data-wow-delay=".2s">
                 <div class="process-img pe-lg-5">
-                    <img src="https://placehold.co/600x400/gray/000?text=600x400" class="img-fluid rounded-4 shadow-sm" alt="Constructionism">
+                    <img src="features/home/images/work-process/1.png" class="img-fluid rounded-4 shadow-sm" alt="Constructionism">
                 </div>
             </div>
             <div class="col-lg-6 wow fadeInRight" data-wow-delay=".4s">
@@ -54,7 +54,7 @@
             </div>
             <div class="col-lg-6 order-1 order-lg-2 wow fadeInRight" data-wow-delay=".4s">
                 <div class="process-img">
-                    <img src="https://placehold.co/600x400/gray/000?text=600x400" class="img-fluid rounded-4 shadow-sm" alt="Professional Maker">
+                    <img src="features/home/images/work-process/2.png" class="img-fluid rounded-4 shadow-sm" alt="Professional Maker">
                 </div>
             </div>
         </div>
@@ -62,7 +62,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 wow fadeInLeft" data-wow-delay=".2s">
                 <div class="process-img pe-lg-5">
-                    <img src="https://placehold.co/600x400/gray/000?text=600x400" class="img-fluid rounded-4 shadow-sm" alt="Problem Solving">
+                    <img src="features/home/images/work-process/3.png" class="img-fluid rounded-4 shadow-sm" alt="Problem Solving">
                 </div>
             </div>
             <div class="col-lg-6 wow fadeInRight" data-wow-delay=".4s">

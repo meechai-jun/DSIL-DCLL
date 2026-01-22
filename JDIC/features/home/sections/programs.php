@@ -18,9 +18,10 @@
     <div class="container">
 
         <div class="text-center mb-3">
-            <span class="wow fadeInUp fw-bold fs-2 text-orange">
+            <!-- <span class="wow fadeInUp fw-bold fs-2 text-orange">
                 กระบวนการเรียนรู้ สู่การเป็นนวัตกร
-            </span>
+            </span> -->
+            <img src="features/home/images/program-section/program-heading.gif" class="w-100" alt="process">
         </div>
 
         <?php
