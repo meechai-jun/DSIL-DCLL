@@ -209,7 +209,7 @@
 
                         <div class="position-absolute top-0 start-50 translate-middle z-1">
                             <span class="badge bg-white rounded-pill shadow-sm px-4 py-2 fs-4 fw-bold border floating-badge-custom">
-                                JDIC Private Exclusive
+                                Private Exclusive
                             </span>
                         </div>
 
