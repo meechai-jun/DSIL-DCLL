@@ -28,21 +28,21 @@
 
         $basicImagePath = "features/home/images/program-section/basic";
         $advanceImagePath = "features/home/images/program-section/advance";
-        $basicImages = [
-            "{$basicImagePath}/12_new.png",
-            "{$basicImagePath}/13_new.png",
-            "{$basicImagePath}/14_new.png",
-            "{$basicImagePath}/15_new.png",
-            "{$basicImagePath}/16_new.png",
-            "{$basicImagePath}/17_new.png"
-        ];
         $advanceImages = [
-            "{$advanceImagePath}/6_new.png",
-            "{$advanceImagePath}/7_new.png",
-            "{$advanceImagePath}/8_new.png",
-            "{$advanceImagePath}/9_new.png",
-            "{$advanceImagePath}/10_new.png",
-            "{$advanceImagePath}/11_new.png",
+            "{$advanceImagePath}/12_new.png",
+            "{$advanceImagePath}/13_new.png",
+            "{$advanceImagePath}/14_new.png",
+            "{$advanceImagePath}/15_new.png",
+            "{$advanceImagePath}/16_new.png",
+            "{$advanceImagePath}/17_new.png"
+        ];
+        $basicImages = [
+            "{$basicImagePath}/6_new.png",
+            "{$basicImagePath}/7_new.png",
+            "{$basicImagePath}/8_new.png",
+            "{$basicImagePath}/9_new.png",
+            "{$basicImagePath}/10_new.png",
+            "{$basicImagePath}/11_new.png",
         ];
         ?>
         <hr>
@@ -73,7 +73,7 @@
                             <div class="swiper-slide h-auto">
                                 <div class="card h-100 bg-white border rounded-4 shadow-sm p-4 text-center hover-up">
                                     <div class="mb-3 overflow-hidden rounded-3">
-                                        <img src="<?php echo $programBasicImgPath . '/' . $imgName; ?>" class="w-100 img-fluid" alt="Basic Course <?php echo $index + 1; ?>">
+                                        <img src="<?php echo $imgName; ?>" class="w-100 img-fluid" alt="Basic Course <?php echo $index + 1; ?>">
                                     </div>
                                     <div class="card-body p-0">
                                         <!-- <h5 class="fw-bold mb-1">
@@ -132,7 +132,7 @@
                             <div class="swiper-slide h-auto">
                                 <div class="card h-100 bg-white border rounded-4 shadow-sm p-4 text-center hover-up">
                                     <div class="mb-3 overflow-hidden rounded-3">
-                                        <img src="<?php echo $programAdvanceImgPath . '/' . $imgName; ?>" class="w-100 img-fluid" alt="Advanced Course <?php echo $index + 1; ?>">
+                                        <img src="<?php echo $imgName; ?>" class="w-100 img-fluid" alt="Advanced Course <?php echo $index + 1; ?>">
                                         <!-- <img src="features/home/images/coding-level-advance.png" class="w-100 img-fluid" alt="Advanced Course"> -->
                                     </div>
                                     <div class="card-body p-0">
