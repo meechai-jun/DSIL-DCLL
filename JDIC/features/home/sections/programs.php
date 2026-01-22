@@ -25,32 +25,25 @@
         </div>
 
         <?php
-        // Path setup
-        $programBasicDir = __DIR__ . '/../images/program-section/basic';
-        $programBasicImgPath = 'features/home/images/program-section/basic';
 
-        $programAdvanceDir = __DIR__ . '/../images/program-section/advance';
-        $programAdvanceImgPath = 'features/home/images/program-section/advance';
-
-        // Helper function to get images
-        function getProgramImages($dir)
-        {
-            $images = [];
-            if (is_dir($dir)) {
-                // glob braces not work on some server, separate calls safer if needed but usually fine locally
-                $files = glob($dir . '/*.{jpg,jpeg,png,gif,webp}', GLOB_BRACE);
-                if ($files) {
-                    foreach ($files as $file) {
-                        $images[] = basename($file);
-                    }
-                    natsort($images);
-                }
-            }
-            return array_values($images);
-        }
-
-        $basicImages = getProgramImages($programBasicDir);
-        $advanceImages = getProgramImages($programAdvanceDir);
+        $basicImagePath = "features/home/images/program-section/basic";
+        $advanceImagePath = "features/home/images/program-section/advance";
+        $basicImages = [
+            "{$basicImagePath}/12_new.png",
+            "{$basicImagePath}/13_new.png",
+            "{$basicImagePath}/14_new.png",
+            "{$basicImagePath}/15_new.png",
+            "{$basicImagePath}/16_new.png",
+            "{$basicImagePath}/17_new.png"
+        ];
+        $advanceImages = [
+            "{$advanceImagePath}/6_new.png",
+            "{$advanceImagePath}/7_new.png",
+            "{$advanceImagePath}/8_new.png",
+            "{$advanceImagePath}/9_new.png",
+            "{$advanceImagePath}/10_new.png",
+            "{$advanceImagePath}/11_new.png",
+        ];
         ?>
         <hr>
 
