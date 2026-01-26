@@ -73,7 +73,7 @@
 
 .main-menu nav ul li.has-dropdown > a::after {
     content: '\f107';
-    font-family: 'Font Awesome 5 Free';
+    font-family: 'Font Awesome 6 Pro';
     font-weight: 900;
     margin-left: 5px;
     font-size: 12px;
