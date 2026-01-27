@@ -1,23 +1,23 @@
 <section class="program-section section-padding section-bg-2 fix">
-    <div class="top-shape">
+    <div class="top-shape d-none d-lg-block">
         <img src="assets/img/section-top-shape.png" alt="shape-img">
     </div>
-    <div class="bottom-shape">
+    <div class="bottom-shape d-none d-lg-block">
         <img src="assets/img/section-bottom-shape.png" alt="shape-img">
     </div>
-    <div class="mask-shape float-bob-x">
+    <div class="mask-shape float-bob-x d-none d-lg-block">
         <img src="assets/img/program/mask.png" alt="shape-img">
     </div>
-    <div class="pencil-shape">
+    <div class="pencil-shape d-none d-lg-block">
         <img src="assets/img/program/pencil.png" alt="shape-img">
     </div>
-    <div class="mask-shape-2">
+    <div class="mask-shape-2 d-none d-lg-block">
         <img src="assets/img/program/mask-2.png" alt="shape-img">
     </div>
-    <div class="compass-shape">
+    <div class="compass-shape d-none d-lg-block">
         <img src="assets/img/program/compass.png" alt="shape-img">
     </div>
-    <div class="container">
+    <div class="container" style="z-index: 9999 !important;">
         <div class="section-title text-center mb-5">
             <h2 class="wow fadeInUp text-orange" style="color: #F8902F;">กระบวนการเรียนรู้</h2>
             <h2 class="wow fadeInUp text-orange" data-wow-delay=".2s" style="color: #E65A04; font-size: 2.5rem;">สู่การเป็นนวัตกร</h2>
