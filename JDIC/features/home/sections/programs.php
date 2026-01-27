@@ -26,24 +26,13 @@
 
         <?php
 
-        $basicImagePath = "features/home/images/program-section/basic";
-        $advanceImagePath = "features/home/images/program-section/advance";
-        $advanceImages = [
-            "{$advanceImagePath}/12_new.png",
-            "{$advanceImagePath}/13_new.png",
-            "{$advanceImagePath}/14_new.png",
-            "{$advanceImagePath}/15_new.png",
-            "{$advanceImagePath}/16_new.png",
-            "{$advanceImagePath}/17_new.png"
-        ];
-        $basicImages = [
-            "{$basicImagePath}/6_new.png",
-            "{$basicImagePath}/7_new.png",
-            "{$basicImagePath}/8_new.png",
-            "{$basicImagePath}/9_new.png",
-            "{$basicImagePath}/10_new.png",
-            "{$basicImagePath}/11_new.png",
-        ];
+        $programsData = require __DIR__ . '/../data/programs.php';
+
+        $basicPath = $programsData['basic']['base_path'];
+        $basicImages = array_map(fn($img) => "$basicPath/$img", $programsData['basic']['items']);
+
+        $advancePath = $programsData['advance']['base_path'];
+        $advanceImages = array_map(fn($img) => "$advancePath/$img", $programsData['advance']['items']);
         ?>
         <hr>
 
@@ -191,56 +180,30 @@
     </div>
 </section>
 
-<section class="py-5 bg-private">
+<section class="py-5 bg-private" id="private-exclusive-section" style="scroll-margin-top: 100px;">
     <div class="container">
         <div>
             <div class="row g-4 justify-content-center">
-                <!-- 
-                <div class="col-lg-6 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay=".2s">
-                    <div class="card h-100 bg-white border rounded-4 shadow-sm hover-up mt-4 overflow-visible position-relative card-private-custom px-4 pb-4">
-
-                        <div class="position-absolute top-0 start-50 translate-middle z-1">
-                            <span class="badge bg-white rounded-pill shadow-sm px-4 py-2 fs-4 fw-bold border floating-badge-custom">
-                                JDIC Private
-                            </span>
-                        </div>
-
-                        <div class="d-flex align-items-center text-start">
-                            <img src="https://placehold.co/300x200/gray/000?text=300x200" class="private-img me-4 rounded-4 shadow-sm" alt="Private">
-                            <div>
-                                <h5 class="fw-bold text-dark mb-1">Private แบบตัวต่อตัว</h5>
-                                <p class="small text-muted mb-2">ออกแบบการเรียนรู้เฉพาะบุคคล</p>
-
-                                <a href="https://line.me/R/ti/p/@zoj9075c" class="btn btn-hover-scale bg-orange text-white rounded-pill px-4 py-2 border-0">
-                                    อ่านเพิ่มเติม <i class="fas fa-arrow-right ms-1"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
-
                 <div class="col-lg-6 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay=".4s">
                     <div
-                        class="card h-100 bg-white border rounded-4 shadow-sm hover-up mt-4 overflow-visible position-relative card-private-custom px-4 pb-4">
+                        class="card h-100 bg-white border rounded-4 shadow-sm hover-up mt-4 overflow-visible position-relative card-private-custom px-4">
 
-                        <div class="position-absolute top-0 start-50 translate-middle z-1">
+                        <div class="position-absolute top-0 start-50 translate-middle z-1" >
                             <span
                                 class="badge bg-white rounded-pill shadow-sm px-4 py-2 fs-4 fw-bold border floating-badge-custom">
                                 Private Exclusive
                             </span>
                         </div>
 
-                        <div class="d-flex align-items-center text-start">
-                            <img src="features/home/images/program-section/private/private.png"
-                                class="private-img me-4 rounded-4 shadow-sm" alt="Exclusive">
-                            <div>
-                                <h5 class="fw-bold text-dark mb-1">Private Exclusive</h5>
-                                <p class="small text-muted mb-2">ดูแลพิเศษ เจาะลึกทุกเนื้อหา</p>
-                                <a href="https://line.me/R/ti/p/@zoj9075c"
-                                    class="btn btn-hover-scale bg-orange text-white rounded-pill px-4 py-2 border-0">
-                                    อ่านเพิ่มเติม <i class="fas fa-arrow-right ms-1"></i>
-                                </a>
+                        <div class="text-center">
+                            <div class="mb-4">
+                                <img src="features/home/images/program-section/private/private.png"
+                                    class="w-100 img-fluid rounded-4 shadow-sm" alt="Exclusive">
                             </div>
+                            <a href="https://line.me/R/ti/p/@zoj9075c"
+                                class="btn btn-hover-scale bg-orange text-white rounded-pill px-4 py-2 border-0">
+                                รายละเอียด
+                            </a>
                         </div>
                     </div>
                 </div>
