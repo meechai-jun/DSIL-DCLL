@@ -7,7 +7,7 @@
 
     <title><?php echo $title; ?></title>
 
-    <link rel="shortcut icon" href="assets/public/logo/jdicLogo.jpg">
+    <link rel="shortcut icon" href="assets/public/logo/jdicLogo.png">
 
     <!-- CSS Libraries -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">

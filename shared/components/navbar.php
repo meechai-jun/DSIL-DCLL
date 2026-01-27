@@ -16,7 +16,7 @@
             <div class="col-lg-3 col-md-12 navbar-light d-flex align-items-center justify-content-around">
                 <div class="logo p-0 m-0">
                     <a href="index.php">
-                        <img alt="DCLL Logo" class="logo-default p-0 m-0" src="./JDIC/assets/public/logo/dcllLogo.jpg" style="max-height: 50px;">
+                        <img alt="DCLL Logo" class="logo-default p-0 m-0" src="./JDIC/assets/public/logo/dcllLogo.png" style="max-height: 50px;">
                     </a>
                 </div>
                 <button class="navbar-toggler mt-2" type="button" data-toggle="collapse"
