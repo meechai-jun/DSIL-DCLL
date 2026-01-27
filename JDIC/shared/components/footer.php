@@ -30,7 +30,7 @@
                         <a href="tel:024708495">02-470-8495</a>
                     </h3>
                     <h4 class="mt-2 text-dark" style="font-size: 16px;">
-                        <a href="tel:0870368482">087-036-8482</a> <br> ครูจูน (ผู้ประสานงาน)
+                        <a href="tel:0870368482">087-036-8482</a>
                     </h4>
                 </div>
             </div>
@@ -49,7 +49,18 @@
                     </h3>
                 </div>
             </div>
-            <div class="contact-info-items wow fadeInUp" data-wow-delay=".7s">
+                <div class="contact-info-items wow fadeInUp" data-wow-delay=".7s">
+                <div class="icon">
+                    <i class="fab fa-line fa-2x" style="color: #F39F5F;"></i>
+                </div>
+                <div class="content">
+                    <p>LINE</p>
+                    <h3>
+                        <a href="https://line.me/R/ti/p/@dsil" target="_blank">@dsil</a>
+                    </h3>
+                </div>
+            </div>
+            <div class="contact-info-items wow fadeInUp" data-wow-delay=".9s">
                 <div class="icon">
                     <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M16 1.66699C11.036 1.66699 7 5.73899 7 10.7617C7 12.463 7.74933 14.5737 8.84 16.679C11.2413 21.315 15.2413 25.9843 15.2413 25.9843C15.3352 26.0937 15.4516 26.1814 15.5826 26.2416C15.7135 26.3017 15.8559 26.3328 16 26.3328C16.1441 26.3328 16.2865 26.3017 16.4174 26.2416C16.5484 26.1814 16.6648 26.0937 16.7587 25.9843C16.7587 25.9843 20.7587 21.315 23.16 16.679C24.2507 14.5737 25 12.463 25 10.7617C25 5.73899 20.964 1.66699 16 1.66699ZM16 7.00033C15.0447 7.02609 14.1371 7.4237 13.4705 8.10853C12.8039 8.79335 12.4309 9.7113 12.4309 10.667C12.4309 11.6227 12.8039 12.5406 13.4705 13.2255C14.1371 13.9103 15.0447 14.3079 16 14.3337C16.9553 14.3079 17.8629 13.9103 18.5295 13.2255C19.1961 12.5406 19.5691 11.6227 19.5691 10.667C19.5691 9.7113 19.1961 8.79335 18.5295 8.10853C17.8629 7.4237 16.9553 7.02609 16 7.00033Z" fill="#F39F5F" />
@@ -67,7 +78,7 @@
     </div>
     <div class="footer-widgets-wrapper">
         <div class="container">
-            <div class="row justify-content-center align-items-center">
+            <div class="row justify-content-center align-items-center flex-column flex-md-row">
                 <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                     <div class="single-footer-widget">
                         <div class="widget-head">
@@ -79,10 +90,12 @@
                             </a>
                         </div>
                         <div class="footer-content">
-                            <div class="social-icon d-flex align-items-center mt-4">
+                            <div class="social-icon d-flex align-items-center flex-wrap mt-4">
                                 <a href="https://www.facebook.com/jdic.dcll?locale=th_TH" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://www.instagram.com/dcll.dsil?igsh=MTlvZHMwbzFiemlw&utm_source=qr" target="_blank"><i class="fab fa-instagram"></i></a>
                                 <a href="https://www.tiktok.com/@dcll.dsil?_r=1&_t=ZS-93PnFqcs4Mq" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
                                 <a href="https://youtube.com/@dcll-dsil?si=RL4lCIJB6kJ5k-ta" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                                <a href="https://line.me/R/ti/p/@dsil" target="_blank"><i class="fab fa-line"></i></a>
                             </div>
                         </div>
                     </div>
@@ -100,7 +113,7 @@
             </div>
         </div>
     </div>
-    <div class="footer-bottom">
+    <!-- <div class="footer-bottom">
         <div class="f-bottom-shape">
             <img src="assets/img/footer-bottom.png" alt="shape-img">
         </div>
@@ -126,5 +139,5 @@
         <a href="#" id="scrollUp" class="scroll-icon">
             <i class="far fa-arrow-up"></i>
         </a>
-    </div>
+    </div> -->
 </footer>
