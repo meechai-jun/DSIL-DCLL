@@ -39,7 +39,7 @@ if (is_dir($eventsDir)) {
 <section class="news-event-section section-padding pt-5">
     <div class="container">
         <div class="section-title text-center mb-5">
-            <span class="wow fadeInUp" style="color: #e55e01; font-weight: bold; font-size: 1.2rem;">NEWS & EVENT</span>
+            <h2 class="wow fadeInUp" style="color: #e55e01; font-weight: bold;">NEWS & EVENT</h2>
         </div>
         <div class="row g-4">
             <?php

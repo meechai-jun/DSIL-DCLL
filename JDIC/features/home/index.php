@@ -22,15 +22,7 @@ $css = '<link rel="stylesheet" href="features/home/css/main.css">';
     <?php include(__DIR__ . '/sections/news-event.php') ?>
     <?php include(__DIR__ . '/sections/work-process.php') ?>
     <?php include(__DIR__ . '/sections/programs.php') ?>
-
-    <!-- Video Section (from Oldversion) -->
-    <section class="video-gallery-section section-padding ">
-        <div class="container">
-            <div class="video-box overflow-hidden rounded-4 shadow wow fadeInUp">
-                <img src="https://placehold.co/1200x600/333333/ffffff?text=Activity+Video+Placeholder" class="w-100" alt="Video Cover">
-            </div>
-        </div>
-    </section>
+    <?php include(__DIR__ . '/sections/video.php') ?>
 
     <!-- Footer -->
     <?php include(__DIR__ . '/../../shared/components/footer.php') ?>
