@@ -1,18 +1,13 @@
 <?php
 
-$eventsDir = __DIR__ . '/../images/events';
 $eventsImgPath = 'features/home/images/events';
 
-$imageFiles = [];
-if (is_dir($eventsDir)) {
-    $files = glob($eventsDir . '/*.{jpg,jpeg,png,gif,webp}', GLOB_BRACE);
-    foreach ($files as $file) {
-        $imageFiles[] = basename($file);
-    }
-    // Sort images naturally (1, 2, 3, ...)
-    natsort($imageFiles);
-    $imageFiles = array_values($imageFiles);
-}
+// Hardcoded event images array
+$imageFiles = [
+    'smart-game-lab.png',
+    'junior-art-toy.png',
+    'rc-viking.png',
+];
 ?>
 <style>
     .news-card {
