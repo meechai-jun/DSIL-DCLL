@@ -231,7 +231,7 @@
                         </div>
 
                         <div class="d-flex align-items-center text-start">
-                            <img src="https://placehold.co/300x200/gray/000?text=300x200"
+                            <img src="features/home/images/program-section/private/private.png"
                                 class="private-img me-4 rounded-4 shadow-sm" alt="Exclusive">
                             <div>
                                 <h5 class="fw-bold text-dark mb-1">Private Exclusive</h5>
