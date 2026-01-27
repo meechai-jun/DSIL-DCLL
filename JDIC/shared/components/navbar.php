@@ -5,7 +5,7 @@
  */
 ?>
 <!-- Header Section Start -->
- <header class="header-section" style="position: relative; background: #fff;">
+ <header class="header-section shadow-sm bg-white" style="position: relative;">
      <div id="header-sticky" class="header-2">
          <div class="mega-menu-wrapper" style="border-radius: 0; background-color: #fff; box-shadow: none;">
              <div class="container">
@@ -14,7 +14,7 @@
                          <div class="logo">
                              <a href="index.php" class="header-logo">
                                  <!-- Logo path from Oldversion -->
-                                 <img src="./assets/public/logo/dcllLogo.jpg" style="width: 220px;" alt="logo-img">
+                                 <img src="./assets/public/logo/dcllLogo.png" style="width: 300px;" alt="logo-img">
                              </a>
                          </div>
                      </div>
@@ -30,11 +30,11 @@
                                              <a href="about.php">About Us</a>
                                          </li>
                                          <li class="has-dropdown">
-                                             <a href="program.php">Programs</a>
+                                             <a href="#">Programs</a>
                                              <ul class="submenu">
-                                                 <li><a href="program.php#basic">Basic (Age 5-10)</a></li>
-                                                 <li><a href="program.php#advance">Advance (Age 8-15)</a></li>
-                                                 <li><a href="program.php#private">Private Exclusive</a></li>
+                                                 <li><a href="basic-program.php">Basic (Age 5-10)</a></li>
+                                                 <li><a href="advance-program.php">Advance (Age 8-15)</a></li>
+                                                 <li><a href="index.php#private-exclusive-section">Private Exclusive</a></li>
                                              </ul>
                                          </li>
                                          <li>

@@ -25,10 +25,13 @@
                     </svg>
                 </div>
                 <div class="content">
-                    <p>Call Us 7/24</p>
+                    <p>Call Us</p>
                     <h3>
-                        <a href="tel:+2085550112">+208-555-0112</a>
+                        <a href="tel:024708495">02-470-8495</a>
                     </h3>
+                    <h4 class="mt-2 text-dark" style="font-size: 16px;">
+                        <a href="tel:0870368482">087-036-8482</a> <br> ครูจูน (ผู้ประสานงาน)
+                    </h4>
                 </div>
             </div>
             <div class="contact-info-items wow fadeInUp" data-wow-delay=".5s">
@@ -40,9 +43,9 @@
                     </svg>
                 </div>
                 <div class="content">
-                    <p>Make a Quote</p>
+                    <p>Email</p>
                     <h3>
-                        <a href="mailto:kidsa@gmail.com">kidsa@gmail.com</a>
+                        <a href="mailto:dsil_pr@kmutt.ac.th">dsil_pr@kmutt.ac.th</a>
                     </h3>
                 </div>
             </div>
@@ -55,9 +58,9 @@
                 </div>
                 <div class="content">
                     <p>Location</p>
-                    <h3>
-                        4517 Washington ave.
-                    </h3>
+                    <h5 class="fw-bold mt-2" style="font-size: 18px; line-height: 1.6;">
+                        126 ถนนประชาอุทิศ แขวงบางมด เขตทุ่งครุ กรุงเทพฯ 10140
+                    </h5>
                 </div>
             </div>
         </div>
@@ -70,20 +73,16 @@
                         <div class="widget-head">
                             <a href="index.php">
                                 <!-- <img src="assets/img/logo/logo.svg" alt="logo-img"> -->
-                                <img src="https://kmuttworks.com/assets/kmuttworks/kmutt-logo.png" style="width: 220px;" alt="logo-img">
+                                <img src="https://kmuttworks.com/assets/kmuttworks/kmutt-logo.png" style="width: 220px;" alt="KMUTT Logo">
+                                <br>
+                                <img src="assets/public/logo/dcllLogo.png" style="width: 220px; margin-top: 15px;" alt="DCLL Logo">
                             </a>
                         </div>
                         <div class="footer-content">
-                            <p>
-                                <!-- <img src="https://e-school.kmutt.ac.th/dsil/wp-content/uploads/2023/01/dsil_logo.jpg" style="width: 220px;" alt="logo-img">
-                                <img src="./assets/public/logo/dcllLogo.jpg" style="width: 220px;" alt="logo-img"> -->
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.
-                            </p>
-                            <div class="social-icon d-flex align-items-center">
-                                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                            <div class="social-icon d-flex align-items-center mt-4">
+                                <a href="https://www.facebook.com/jdic.dcll?locale=th_TH" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://www.tiktok.com/@dcll.dsil?_r=1&_t=ZS-93PnFqcs4Mq" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+                                <a href="https://youtube.com/@dcll-dsil?si=RL4lCIJB6kJ5k-ta" target="_blank"><i class="fa-brands fa-youtube"></i></a>
                             </div>
                         </div>
                     </div>
@@ -94,7 +93,7 @@
                             <h3>JDIC</h3>
                         </div>
                         <div class="recent-post-area">
-                            <img src="assets/public/logo/jdicLogo.jpg" style="width: 200px; height: auto; object-fit: contain;" alt="JDIC Logo">
+                            <img src="assets/public/logo/jdicLogo.png" style="width: 200px; height: auto; object-fit: contain;" alt="JDIC Logo">
                         </div>
                     </div>
                 </div>
