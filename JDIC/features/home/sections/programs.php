@@ -184,7 +184,7 @@
     <div class="container">
         <div>
             <div class="row g-4 justify-content-center">
-                <div class="col-lg-6 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay=".4s">
+                <div class="col-lg-10 col-md-10 col-sm-12 wow fadeInUp" data-wow-delay=".4s">
                     <div
                         class="card h-100 bg-white border rounded-4 shadow-sm hover-up mt-4 overflow-visible position-relative card-private-custom px-4">
 
