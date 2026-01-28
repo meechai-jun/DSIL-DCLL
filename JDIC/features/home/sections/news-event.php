@@ -50,9 +50,9 @@ $imageFiles = [
                             <img src="<?php echo htmlspecialchars($imgSrc); ?>" class="w-100" alt="<?php echo htmlspecialchars($altText); ?>">
                         </div>
                         <div class="mt-auto text-center p-4">
-                            <span class="theme-btn" style="padding: 10px 25px; font-size: 14px;">
+                            <a href="https://line.me/R/ti/p/@zoj9075c" class="theme-btn" style="padding: 10px 25px; font-size: 14px;">
                                 <span>Enroll Your Kid <i class="fa-solid fa-arrow-right-long"></i></span>
-                            </span>
+                            </a>
                         </div>
                     </div>
                 </div>
