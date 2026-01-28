@@ -1,10 +1,3 @@
-<?php
-
-/**
- * Shared Footer Component
- * Reverted to JDIC-Oldversion style
- */
-?>
 <footer class="footer-section section-bg fix">
     <div class="footer-top-shape">
         <img src="assets/img/footer-top.png" alt="shape-img">
@@ -45,7 +38,7 @@
                 <div class="content">
                     <p>Email</p>
                     <h3>
-                        <a href="mailto:dsil_pr@kmutt.ac.th">dsil_pr@kmutt.ac.th</a>
+                        <a href="mailto:dsil_pr@kmutt.ac.th" style="text-transform: lowercase;">dsil_pr@kmutt.ac.th</a>
                     </h3>
                 </div>
             </div>
@@ -113,31 +106,4 @@
             </div>
         </div>
     </div>
-    <!-- <div class="footer-bottom">
-        <div class="f-bottom-shape">
-            <img src="assets/img/footer-bottom.png" alt="shape-img">
-        </div>
-        <div class="container">
-            <div class="footer-wrapper d-flex align-items-center justify-content-between">
-                <p class="wow fadeInLeft color-2" data-wow-delay=".3s">
-                    © All Copyright 2024 by <a href="index.php">Kidsa</a>
-                </p>
-                <ul class="footer-menu wow fadeInRight" data-wow-delay=".5s">
-                    <li>
-                        <a href="contact.php">
-                            Terms & Condition
-                        </a>
-                    </li>
-                    <li>
-                        <a href="contact.php">
-                            Privacy Policy
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <a href="#" id="scrollUp" class="scroll-icon">
-            <i class="far fa-arrow-up"></i>
-        </a>
-    </div> -->
 </footer>
